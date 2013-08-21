@@ -1,19 +1,19 @@
-# Twitter Bootstrap 2.0 for CakePHP
+# Bootstrap 2.0 for CakePHP
 
 Version 1.0 for CakePHP 2.x 
 
-Twitter Bootstrap is a sleek, intuitive and powerful front-end framework for faster and easier web-development. 
-It comes accross with base HTML and CSS for typography, forms, buttons, tables, grids, navigation and more.
+Bootstrap is a sleek, intuitive and powerful front-end framework for faster and easier web-development. 
+It comes across with base HTML and CSS for typography, forms, buttons, tables, grids, navigation and more.
 
-BootstrapCake is a plugin for CakePHP 2.x that easily integrates the Twitter Bootstrap CSS and JS toolkit. 
+BootstrapCake is a plugin for CakePHP 2.x that easily integrates the Bootstrap CSS and JS toolkit. 
 
 ## Docs & Links 
 
-[Twitter Bootstrap GitHub Repo](https://github.com/twitter/bootstrap "Twitter Bootstrap GitHub") - The official Twitter Bootstrap Repository on GitHub 
+[Bootstrap GitHub Repo](https://github.com/twbs/bootstrap "Bootstrap GitHub") - The official Bootstrap Repository on GitHub 
 
-[Twitter Bootstrap Website](http://twitter.github.com/bootstrap/ "Twitter Bootstrap Website") - Official Twitter Bootstrap Website with examples and tutorials 
+[Bootstrap Website](http://twbs.github.io/bootstrap/2.3.2/ "Bootstrap Website") - Official Bootstrap Website with examples and tutorials 
 
-[Introduction to Twitter Bootstrap](http://twitter.github.com/bootstrap/getting-started.html "Introduction to Twitter Bootstrap") - Introduction how to start with Twitter Bootstrap 
+[Introduction to Bootstrap](http://twbs.github.io/bootstrap/2.3.2/getting-started.html "Introduction to Bootstrap") - Introduction how to start with Bootstrap 
 
 ## Installation & Setup
 
@@ -39,16 +39,16 @@ BootstrapCake is a plugin for CakePHP 2.x that easily integrates the Twitter Boo
 
 	Note: You can also load the helper in every other controller if you like. But it's recommended to in the AppController to make it always available. 
 
-6. Thats it! You're done and can now use Twitter Bootstrap in your CakePHP project! 
+6. Thats it! You're done and can now use Bootstrap in your CakePHP project! 
 
 ## Layout Generator 
 
-##### BootstrapCake also brings an easy command line generator to create Twitter Bootstrap compatible layouts
+##### BootstrapCake also brings an easy command line generator to create Bootstrap compatible layouts
 
 Usage:
 
 ```ruby
-	cake BootstrapCake.layout -n [LAYOUT_NAME] -t [*fixed or fluid] 	
+	cake BootstrapCake.layout -n [LAYOUT_NAME] -t [*fixed or fluid]	
 ```
 
 Example:
@@ -61,7 +61,7 @@ This will generate a Bootstrap compatible and fluid layout under _app/View/Layou
 
 ## Helper
 
-The plugin includes a helper to load the required files for Twitter Bootstrap. 
+The plugin includes a helper to load the required files for Bootstrap. 
 So you are able to integrate Bootstrap in a existing layout.  
 
 Load all files: 
@@ -70,7 +70,7 @@ Load all files:
 	echo $this->Bootstrap->load();
 ```
 
-Creates and outputs the HTML tags for loading the CSS and JS files for Twitter Bootstrap.
+Creates and outputs the HTML tags for loading the CSS and JS files for Bootstrap.
 
 Load CSS files:
 
@@ -90,7 +90,7 @@ Outputs the HTML tag to just load the JS files.
 
 ###### Choose between compressed and uncompressed version
 
-By default the plugin loads always the compressed version of Twitter Bootstrap files to improve loading time. 
+By default the plugin loads always the compressed version of Bootstrap files to improve loading time. 
 But sometimes you maybe want to choose the uncompressed dev file. You can switch for every helper method to the uncompressed file.
 
 Usage:
@@ -115,13 +115,13 @@ Please feel free to contribute to the plugin with new issues, requests, unit tes
 
 ## Thanks
 
-A big thanks to Twitter Bootstrap and all contributors for this awesome framework! http://twitter.github.com/bootstrap
+A big thanks to Bootstrap and all contributors for this awesome framework! http://twbs.github.io/bootstrap
 
 ## License 
  
 BootstrapCake is licensed under the MIT License (http://www.opensource.org/licenses/mit-license.php)
 
-Twitter Bootstrap is licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+Bootstrap is licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
 
 ## Copyright 
 
