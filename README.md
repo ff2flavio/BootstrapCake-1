@@ -1,3 +1,5 @@
+## Attention: We are no longer supporting this plugin.
+
 # Bootstrap 2.0 for CakePHP
 
 Version 1.0 for CakePHP 2.x 
